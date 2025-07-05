@@ -1,0 +1,57 @@
+)Prompt Analyser
+Theme Build an intelligent AI agent that monitors brand visibility across major AI platforms and
+search engines. The system must generate relevant prompts, analyze brand mentions in AI
+responses, track competitor performance, and provide actionable visibility insights all within the
+evolving AI-powered search landscape.
+Core Challenge: Context Engineering This is a Context Engineering Hackathon where
+participants must create an AI agent that:
+● Generates industry-specific prompts that users commonly search
+● Analyzes brand mentions and rankings across multiple AI platforms
+● Compares brand visibility against key competitors
+● Scores overall brand presence with actionable insights and recommendations
+Target Audience Primary User: Brand Managers and Digital Marketing Teams
+● Company Size: Startups to Enterprise (50-10,000+ employees)
+● Industries: FinTech, E-commerce, SaaS, Healthcare, EdTech
+● Marketing Budget: ₹5L - ₹50L annually on digital marketing
+● Pain Point: Unknown brand visibility in AI-generated search results
+AI Platform Categories to Monitor
+1. Conversational AI Platforms
+● ChatGPT: OpenAI's flagship conversational AI
+● Google Gemini: Google's advanced AI assistant
+● Perplexity AI: AI-powered search and answer engine
+2. Search-Enhanced AI
+● Microsoft Copilot: Bing-integrated AI assistant
+● Meta AI: Facebook's conversational AI platform
+Conversational Flow
+Analyzer: "Welcome! Let's analyze your brand's AI visibility. What's your brand name and
+industry?"
+User: "PolicyBazaar, insurance comparison platform"
+Analyzer: "Perfect! I'll analyze PolicyBazaar's visibility across ChatGPT, Gemini, and Perplexity
+using insurance-related prompts.
+Generated Prompts (20 samples):
+• Best insurance comparison platforms in India
+• Where to buy car insurance online
+• Compare health insurance policies
+Visibility Analysis:
+● ChatGPT: 7/10 prompts mention PolicyBazaar (Rank #2 avg)
+● Gemini: 5/10 prompts mention PolicyBazaar (Rank #3 avg)
+Competitor Analysis: • Bajaj Allianz: 6/10 average mentions • HDFC ERGO: 4/10 average
+mentions • ICICI Lombard: 5/10 average mentions
+Overall Visibility Score: 67/100"
+Sample Implementation Requirements Core Architecture Expectations Automated
+Prompt Generation:
+● Generate 20-30 industry-specific prompts based on brand category
+● Include variations: direct questions, comparison queries, recommendation requests
+● Simulate real user search patterns and intent
+● Cover different stages of customer journey (awareness, consideration, purchase)
+Multi-Platform Analysis Implementation:
+● Integrate with 3+ AI platforms via APIs or web scraping
+● Extract brand mentions, rankings, and context from responses
+● Identify competitor mentions and relative positioning
+● Track sentiment and recommendation strength
+Expected System Flow:
+1. Brand profile setup and competitor identification
+2. Automated prompt generation based on industry keywords
+3. Multi-platform query execution and response collection
+4. Brand mention extraction and ranking analysis
+5. Competitor comparison and visibility scoring with actionable insights
